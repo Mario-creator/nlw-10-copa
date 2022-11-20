@@ -8,35 +8,35 @@
   --color-border-botton: #f7dd43;
   --color-border-tittle: #746615;
   --card-color-bg: #1d1c19;
-  --bg: url(./assets/bg-yellow.svg)
+  --bg: url(./assets/backgrounds/bg-yellow.svg)
 }
 
 body.blue {
   --color-border-botton: #338af3;
   --color-border-tittle: #0c2e57;
   --card-color-bg: #202024;
-  --bg: url(./assets/bg-blue.svg)
+  --bg: url(./assets/backgrounds/bg-blue.svg)
 }
 
 body.green {
   --color-border-botton: #0fbe67;
   --color-border-tittle: #0f5733;
   --card-color-bg: #1a1f1b;
-  --bg: url(./assets/bg-green.svg)
+  --bg: url(./assets/backgrounds/bg-green.svg)
 }
 
 body.orange {
   --color-border-botton: #ff8800;
   --color-border-tittle: #57320f;
   --card-color-bg: #1f1c1a;
-  --bg: url(./assets/bg-orange.svg)
+  --bg: url(./assets/backgrounds/bg-orange.svg)
 }
 
 body.pink {
   --color-border-botton: #ff00d4;
   --color-border-tittle: #570f47;
   --card-color-bg: #1f1a1d;
-  --bg: url(./assets/bg-pink.svg)
+  --bg: url(./assets/backgrounds/bg-pink.svg)
 }
 
 .color-switcher {
