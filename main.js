@@ -31,3 +31,23 @@ document.querySelector("#cards").innerHTML =
     createCard("24/11", "quinta", 
       createGame('brazil', '16:00', 'serbia')
     )
+
+document.getElementById("yellow").addEventListener("click", () => {
+  document.querySelector("body").setAttribute("class", "");
+});
+
+document.getElementById("blue").addEventListener("click", () => {
+  document.querySelector("body").setAttribute("class", "blue");
+});
+
+document.getElementById("green").addEventListener("click", () => {
+  document.querySelector("body").setAttribute("class", "green");
+});
+
+document.getElementById("orange").addEventListener("click", () => {
+  document.querySelector("body").setAttribute("class", "orange");
+});
+
+document.getElementById("pink").addEventListener("click", () => {
+  document.querySelector("body").setAttribute("class", "pink");
+});

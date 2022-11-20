@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --color-border-botton: #f7dd43;
   --color-border-tittle: #746615;
@@ -23,6 +24,50 @@ body.green {
   --card-color-bg: #1a1f1b;
   --bg: url(./assets/bg-green.svg)
 }
+
+body.orange {
+  --color-border-botton: #ff8800;
+  --color-border-tittle: #57320f;
+  --card-color-bg: #1f1c1a;
+  --bg: url(./assets/bg-orange.svg)
+}
+
+body.pink {
+  --color-border-botton: #ff00d4;
+  --color-border-tittle: #570f47;
+  --card-color-bg: #1f1a1d;
+  --bg: url(./assets/bg-pink.svg)
+}
+
+.color-switcher {
+  color: #e1e1e6;
+  margin: auto;
+  width: 200px;
+  background: var(--card-color-bg);
+  border-bottom: 2px solid var(--color-border-botton);
+  border-radius: 6px;
+}
+
+button {
+  border: none;
+}
+
+.color-switcher .theme-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-switcher .theme-buttons-container .theme-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 6px;
+  margin: 5px;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
 }
