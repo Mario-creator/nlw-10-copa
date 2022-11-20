@@ -76,7 +76,7 @@ body {
   background-image: var(--bg);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
 }
 
