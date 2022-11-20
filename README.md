@@ -35,7 +35,7 @@ O Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.
 
 ## 🔖 Layout
 
-Você pode visualizar o projeto através [DESSE LINK](mario-creator.github.io/nlw-10-copa/).
+Você pode visualizar o projeto através [DESSE LINK](https://mario-creator.github.io/nlw-10-copa/).
 
 ## :memo: Licença
 
